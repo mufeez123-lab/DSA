@@ -2,7 +2,7 @@ package string;
 
 public class duplicatestr {
     public static void main(String[] args) {
-        String str="mufeeeez";
+        String str="muffeeeez";
         
 
         for(int i=0;i<str.length();i++){
@@ -12,7 +12,7 @@ public class duplicatestr {
                     count++;
                 }
             }
-                if(count>1){
+                if(count>1  ){
                     System.out.println(str.charAt(i)+"-" +count+ " times ");
                     return;
                 }

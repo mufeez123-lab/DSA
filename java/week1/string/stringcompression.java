@@ -7,7 +7,7 @@ public class stringcompression {
 
         for(int i=0;i<=str.length();i++){
           
-            if(i<str.length()-1     && str.charAt(i)==str.charAt(i+1)){
+            if(i<str.length()-1 && str.charAt(i)==str.charAt(i+1)){
                 count++;
             }else{
                 System.out.println(str.charAt(i)+ ""+count);

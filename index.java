@@ -3,11 +3,10 @@ package week1;
 
     class Main{
         public static void main(String[] args) {
-       Scanner sc =new Scanner(System.in);
-       System.out.println("Enter your name");
+   Scanner sc=new Scanner(System.in);
+   System.out.println("Enter your name");
+   String name=sc.nextLine();
 
-       String name=sc.nextLine();
-
-       System.out.println("Your name: "+name);
+   System.out.println("Your name is "+name);
         }
     }
